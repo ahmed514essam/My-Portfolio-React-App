@@ -1,0 +1,72 @@
+.sectionMainAll {
+    background-color: rgb(10, 10, 10) !important;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.MyCardy {
+    width: 35%;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.MyDetails {
+    width: 65%;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 40px;
+}
+.MyPhoto img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.MyPhoto {
+    width: 280px;
+   padding-left: 30px;
+
+}
+
+.addressMy {
+    font-weight: 800;
+    padding-left: 30px;
+    width: 280px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.spanAdd {
+    color: rgb(206, 206, 206);
+    font-weight: 900;
+}
+h2 {
+    color: rgb(70, 177, 196);
+    font-weight: 900;
+    font-size: 2.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headQuestionMark {
+    color: rgb(70, 177, 196);
+    font-weight: 900;
+    font-size: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width:800px) {
+    .sectionMainAll {
+        padding-top: 5rem;
+        flex-direction: column;
+        }
+        .MyCardy {
+            width: 95%;
+        }
+        .MyDetails {
+            width: 95%;
+        }
+}

@@ -1,35 +1,118 @@
+/* General Reset */
 * {
+  color: white; /* Ensure text is white everywhere */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Container */
+.mainBG {
+  background-color: rgb(3, 16, 24) !important;
+  color: white !important;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1.8px solid rgb(182, 182, 182);
+  z-index: 1000;
+}
+@media (max-width:500px) {
+  .mainBG {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+/* Navbar Brand */
+.navbar-brand {
+ 
+  font-weight: 900;
+  font-size: 1.8em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
   color: white;
 }
-.mainBG {
-    background-color:  rgb(3, 16, 24) !important;
-    color: white !important;
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    
-  }
-  
-  .navbar-brand {
-    color: white;
-    font-weight: 900;
-    font-size: 1.8em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+.heads {
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 900;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: pointer;
-  
-  
-  }
-  .spanHead {
-    color: rgb(70, 177, 196);
-  }
-  .navbar-brand:hover {
-    color: white;
-  }
-  .navbar-brand:active {
-    color: white;
-  }
-  .likss {
-color: white;
-  }
+}
+.icorye:hover {
+color: rgb(31, 81, 90);
+}
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  z-index: 1001;
+}
 
+.navbar-toggler .fa-bars,
+.navbar-toggler .fa-times {
+  font-size: 1.5rem;
+  color: blue; /* Changed color to blue for visibility */
+}
+
+/* Navbar Collapse Container */
+.collapse.navbar-collapse {
+  background-color: rgb(3, 16, 24); /* Background color for dropdown */
+  padding-left: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1002;
+}
+
+/* Dropdown Menu and Links */
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  background-color: rgb(3, 16, 24); /* Background color for each item */
+}
+
+.navbar-nav .nav-link {
+  color: white; /* Text color for dropdown items */
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background on hover */
+}
+
+/* Media Queries */
+@media (max-width: 773px) {
+  .icory {
+    padding-left: 20px;
+  }
+  .icorye {
+    padding-left: 29px;
+  }
+}
+.spanHead {
+  color: rgb(70, 177, 196);
+}
+.likss:hover {
+  text-decoration: none;
+}
+.allio:hover {
+  color: rgb(31, 81, 90);
+}
+
+.navio:hover {
+  color: rgb(70, 177, 196);
+}
+.icory:hover {
+color: rgb(31, 81, 90);
+}
+.selectLin:hover {
+  color: rgb(31, 81, 90);
+}
