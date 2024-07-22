@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./HomePage.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF , faWhatsapp , faLinkedinIn , faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import {  useLocation } from 'react-router-dom';
 
 export default function HomePage() {
+
+  const ActivePath = () => {
+    const location = useLocation();
+    console.log( location.pathname);
+  };
+function onn() {
+  ActivePath()
+}
   return (
     <main>
       <div className="mainHome">
-        <h1 className='honeforMainBage'>Ahmed Essam</h1>
+        <h1 onClick={onn()} className='honeforMainBage'>Ahmed Essam</h1>
         <p className='paraJops'>Frontend Web Developer</p>
         <div className="socialMediaIco">
 

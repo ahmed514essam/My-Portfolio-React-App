@@ -95,8 +95,10 @@ let totalProj = projects.length ;
 
 
 <div className={styles.imgProjects}>
-<span>{project.num}</span>/<span>{totalProj}</span>
 
+<div className={styles.nnmm}>
+<span>{project.num}</span>/<span>{totalProj}</span>
+</div>
 <img src={project.imge}  alt={project.name}/>
 </div>
 
@@ -107,10 +109,10 @@ let totalProj = projects.length ;
 
 
 
-<div>
-<button><Link to={project.demo}>Demo</Link></button>
+<div className={styles.btnAndLink}> 
+<button><Link className={styles.linDem} to={project.demo}>Demo</Link></button>
 
-<Link to={project.repo}><FontAwesomeIcon icon={faGithub} /></Link>
+<Link className={styles.IconLiRepo} to={project.repo}><FontAwesomeIcon icon={faGithub} /></Link>
 
 </div>
 
