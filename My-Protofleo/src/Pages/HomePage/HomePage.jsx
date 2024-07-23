@@ -16,7 +16,7 @@ function onn() {
   return (
     <main>
       <div className="mainHome">
-        <h1 onClick={onn()} className='honeforMainBage'>Ahmed Essam</h1>
+        <h1 onClick={onn()} className="honeforMainBage">Ahmed Essam</h1>
         <p className='paraJops'>Frontend Web Developer</p>
         <div className="socialMediaIco">
 
