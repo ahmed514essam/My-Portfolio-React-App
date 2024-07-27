@@ -1,0 +1,19 @@
+
+
+
+#ad {
+    text-align: center;
+}
+
+
+
+
+#ad:hover .fa-solid   {
+    color: rgb(31, 81, 90);
+}
+#ad:hover #nameIcony {
+    color: rgb(31, 81, 90);
+}
+#ad:active {
+    color: rgb(60, 135, 148);
+}

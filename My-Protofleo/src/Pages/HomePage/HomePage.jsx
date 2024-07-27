@@ -38,7 +38,7 @@ function onn() {
    
 
         <section className="home-btns">
-                            <a rel="noreferrer" target="_self" href="https://drive.google.com/u/0/uc?id=1uCgR6ZYGdkmEyA4AwWVI4C1d-8VRsTY4&export=download" download>Download My Resume</a>
+        <a rel="noreferrer" target="_self" href="https://drive.google.com/uc?export=download&id=1Tg842i7lG-VIv3k_X9goxvDnOFfL0BFd" download="My_Resume.pdf">Download My Resume</a>
                         </section>
 
 

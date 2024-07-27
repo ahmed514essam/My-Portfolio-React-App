@@ -22,6 +22,9 @@ main {
     
     background-size: cover;
 }
+h1 {
+    color: white;
+}
 .honeforMainBage {
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
  font-weight: 800;
@@ -35,7 +38,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
     margin: 10px 2px 2px 2px;
     letter-spacing: 1px;
     width: fit-content;
-    
+    cursor: pointer;
 border-spacing: 5px;
 
 
@@ -46,6 +49,7 @@ border-spacing: 5px;
     font-size: 1.1em;
     color: rgb(54, 108, 117);
     padding-left: 2px;
+    cursor: pointer;
 }
 .socialMediaIco {
     display: flex;
@@ -79,7 +83,7 @@ border-spacing: 5px;
  display: flex;
  align-items: center;
  justify-content: center;
- border: 2px solid black;
+ border: 2px solid rgb(71, 103, 126);
  z-index: 1;
  position: relative;
  border-radius: 50%;
@@ -88,6 +92,8 @@ border-spacing: 5px;
  -ms-border-radius: 50%;
  -o-border-radius: 50%;
 }
+
+
 .span:hover {
     background-color: rgb(68, 166, 184);
 }
@@ -177,12 +183,12 @@ width: 80%;
 @media (max-width:395px) {
     
     .mainHome {
-width: 80%;
+width: 98%;
 margin-left: 5px;
     }
 h1 {
     width: 100%;
-    font-size: 2em;
+    font-size: 2.1em;
 }
 
 
@@ -204,7 +210,7 @@ h1 {
     position: relative;
 }
 .span {
- width: 70px;
+ width: 60px;
  height: 60px;
  display: flex;
  align-items: center;
@@ -331,3 +337,4 @@ h1{
 }
 
 }
+

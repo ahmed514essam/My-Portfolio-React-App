@@ -47,48 +47,78 @@ color: rgb(31, 81, 90);
   border: none;
   outline: none;
   z-index: 1001;
+  color: rgb(70, 177, 196);
 }
 
 .navbar-toggler .fa-bars,
 .navbar-toggler .fa-times {
   font-size: 1.5rem;
-  color: blue; /* Changed color to blue for visibility */
+  color: blue; 
 }
 
-/* Navbar Collapse Container */
 .collapse.navbar-collapse {
-  background-color: rgb(3, 16, 24); /* Background color for dropdown */
+  background-color: rgb(3, 16, 24);
   padding-left: 20px;
-  border-radius: 10px;
   position: relative;
   z-index: 1002;
 }
-
-/* Dropdown Menu and Links */
 .navbar-nav {
   list-style: none;
   padding: 0;
 }
 
 .navbar-nav .nav-item {
-  background-color: rgb(3, 16, 24); /* Background color for each item */
+  background-color: rgb(3, 16, 24); 
 }
 
 .navbar-nav .nav-link {
-  color: white; /* Text color for dropdown items */
+  color: white; 
   font-size: 1.2rem;
   padding: 10px 20px;
   display: flex;
   align-items: center;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; 
 }
 
-/* Hover effect */
-.navbar-nav .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background on hover */
+/* .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+} */
+
+.allio:hover .fa-solid {
+  color: rgb(31, 81, 90);
 }
 
-/* Media Queries */
+.allio:hover .icorye {
+  color: rgb(31, 81, 90);
+}
+
+.allio:hover .icory {
+  color: rgb(31, 81, 90);
+}
+
+.allis:hover .fa-solid {
+  color: rgb(31, 81, 90);
+}
+
+.allis:hover .icorye {
+  color: rgb(31, 81, 90);
+}
+
+.allis:hover .icory {
+  color: rgb(31, 81, 90);
+}
+
+
+
+.nav-link.active .icory  {
+  color: rgb(70, 177, 196); /* or any other styling you want for the active link */
+}
+
+
+
+
+
+
 @media (max-width: 773px) {
   .icory {
     padding-left: 20px;
@@ -111,7 +141,7 @@ color: rgb(31, 81, 90);
   color: rgb(70, 177, 196);
 }
 .icory:hover {
-color: rgb(31, 81, 90);
+  color: rgb(31, 81, 90);
 }
 .selectLin:hover {
   color: rgb(31, 81, 90);

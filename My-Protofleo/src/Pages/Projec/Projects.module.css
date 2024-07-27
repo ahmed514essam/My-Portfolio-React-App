@@ -70,7 +70,7 @@ h1 {
 
 .proj {
     width: 310px;
-    height: 400px;
+    height: 100%;
     border-radius: 4px;
     background-color: rgb(3, 16, 24);
     margin-bottom: 20px;
@@ -161,4 +161,11 @@ h1 {
 }
 
 
+}
+@media (max-width:800px) {
+    .content {
+     gap: 50px;
+
+    }
+    
 }
