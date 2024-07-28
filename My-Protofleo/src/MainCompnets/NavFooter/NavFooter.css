@@ -1,19 +1,60 @@
-
-
-
-#ad {
+.navfooterEd {
+    display: none;
+}
+@media (max-width:900px) {
+    .navfooterEd {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(3, 16, 24) !important;
+        justify-content: space-around;
+        height: 70px;
+        align-items: center;
+        border-top: 1px solid rgb(109, 109, 109);
+    }
+  .alliss {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-}
-
-
-
-
-#ad:hover .fa-solid   {
+    font-weight: 700;
+  }
+  .alliss:hover .fa-solid {
     color: rgb(31, 81, 90);
-}
-#ad:hover #nameIcony {
+  }
+  
+  .alliss:hover .icorys {
     color: rgb(31, 81, 90);
+  }
+  
+
+  
+  .alliss:hover .fa-solid {
+    color: rgb(31, 81, 90);
+  }
+  
+  .alliss:hover .icorys {
+    color: rgb(31, 81, 90);
+  }
+  
+  .alliss:hover .icorys {
+    color: rgb(31, 81, 90);
+  }
+  
+
+
+  .nav-link.active .icorys,
+  .nav-link.active .fa-solid {
+    color: rgb(70, 177, 196); 
+  }
 }
-#ad:active {
-    color: rgb(60, 135, 148);
-}
+
+
+
+
+
+
+
+
+

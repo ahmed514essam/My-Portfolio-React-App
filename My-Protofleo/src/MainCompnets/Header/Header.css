@@ -44,10 +44,22 @@ color: rgb(31, 81, 90);
 }
 /* Navbar Toggler */
 .navbar-toggler {
-  border: none;
+  border: 2px solid rgb(70, 177, 196);
   outline: none;
   z-index: 1001;
   color: rgb(70, 177, 196);
+}
+.navbar-toggler:active {
+  border:none;
+  outline: none;
+  z-index: 1001;
+ 
+}
+.navbar-toggler:focus {
+  border:none;
+  outline: none;
+  z-index: 1001;
+ 
 }
 
 .navbar-toggler .fa-bars,
@@ -110,8 +122,9 @@ color: rgb(31, 81, 90);
 
 
 
-.nav-link.active .icory  {
-  color: rgb(70, 177, 196); /* or any other styling you want for the active link */
+.nav-link.active .icory,
+.nav-link.active .fa-solid {
+  color: rgb(70, 177, 196); 
 }
 
 
@@ -145,4 +158,14 @@ color: rgb(31, 81, 90);
 }
 .selectLin:hover {
   color: rgb(31, 81, 90);
+}
+
+@media (max-width:800px) {
+  
+  .aboutSapn {
+    padding-left: 7px;
+  }
+.aboutSSpaWord {
+  padding-left: 27px;
+}
 }

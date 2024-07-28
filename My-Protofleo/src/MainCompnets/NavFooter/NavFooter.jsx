@@ -1,44 +1,67 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import "./NavFooter.css";
-import style from "./NavFooter.module.css";
+
+import  "./NavFooter.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faInfo, faPager, faLayerGroup, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const NavFooter = () => {
   const location = useLocation();
 
+  const handleNavCollapse = () => {
+    setIsNavCollapsed(prevState => !prevState);
+  };
+
   return (
-    <nav className={style.navfooterEd}>
-      <Link className={`${style.linkIcoFot} ${location.pathname === "/ContactMe" ? style.active : ""}`} to="/ContactMe">
-        <span className={style.alliof} id="ad">
-          <FontAwesomeIcon icon={faPhone} /> <span className={style.icoryf} id="nameIcony">Contact</span>
-        </span>
-      </Link>
+    <nav className="navfooterEd">
+     
 
-      <Link className={`${style.linkIcoFot} ${location.pathname === "/Projects" ? style.active : ""}`} to="/Projects">
-        <span className={style.alliof} id="ad">
-          <FontAwesomeIcon icon={faPager} /> <span className={style.icoryf} id="nameIcony">Projects</span>
-        </span>
-      </Link>
 
-      <Link className={`${style.linkIcoFot} ${location.pathname === "/" ? style.active : ""}`} to="/">
-        <span className={style.alliof} id="ad">
-          <FontAwesomeIcon icon={faHouse} /> <span className={style.icoryf} id="nameIcony">Home</span>
-        </span>
-      </Link>
+     <Link className={`nav-link ${location.pathname === "/Skill" ? "active" : ""}`} to="/Skill">
+                <span className="alliss">
+                <i className="fa-solid fa-layer-group"></i> <span className="icorys">Skills</span>
+                </span>
+              </Link>
+         
+   
+       
+              <Link className={`nav-link ${location.pathname === "/Projects" ? "active" : ""}`} to="/Projects" >
+                <span className="alliss">
+                <i className="fa-solid fa-pager"></i> <span className="icorys">Projects</span>
+                </span>
+              </Link>
 
-      <Link className={`${style.linkIcoFot} ${location.pathname === "/Skill" ? style.active : ""}`} to="/Skill">
-        <span className={style.alliof} id="ad">
-          <FontAwesomeIcon icon={faLayerGroup} /> <span className={style.icoryf} id="nameIcony">Skills</span>
-        </span>
-      </Link>
+              <Link className={`nav-link  ${location.pathname === "/" ? "active" : ""}`} to="/" >
+                <span className="alliss">
+                <i className="fa-solid  fa-house"></i> <span className="icorys">Home</span>
+                </span>
+              </Link>
 
-      <Link className={`${style.linkIcoFot} ${location.pathname === "/About" ? style.active : ""}`} to="/About">
-        <span className={style.alliof} id="ad">
-          <FontAwesomeIcon icon={faInfo} /> <span className={style.icoryf} id="nameIcony">About</span>
-        </span>
-      </Link>
+              <Link className={`nav-link ${location.pathname === "/About" ? "active" : ""}`} to="/About">
+                <span className="alliss">
+                <i className="fa-solid fa-info"></i> <span className="icorys">About</span>
+                </span>
+              </Link>
+
+
+              <Link className={`nav-link ${location.pathname === "/ContactMe" ? "active" : ""}`} to="/ContactMe" >
+                <span className="alliss">
+                <i className="fa-solid fa-phone"></i> <span className="icorys">Contact</span>
+                </span>
+              </Link>
+         
+          
+          
+       
+           
+
+  
+             
+      
+ 
+       
+
+
     </nav>
   );
 };

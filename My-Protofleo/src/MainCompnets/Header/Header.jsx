@@ -44,8 +44,8 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link className={`nav-link ${location.pathname === "/About" ? "active" : ""}`} to="/About" onClick={closeMenu}>
-                <span className="allis">
-                <i className="fa-solid fa-info"></i> <span className="icory">About</span>
+                <span className="allis aboutSapn">
+                <i className="fa-solid fa-info"></i> <span className="icory aboutSSpaWord">About</span>
                 </span>
               </Link>
             </li>

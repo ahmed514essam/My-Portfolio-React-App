@@ -91,6 +91,7 @@ border-spacing: 5px;
  -moz-border-radius: 50%;
  -ms-border-radius: 50%;
  -o-border-radius: 50%;
+ background-image: linear-gradient(to right, rgb(46, 89, 97) ,  rgb(165, 227, 238));
 }
 
 
@@ -252,7 +253,7 @@ h1 {
      
     }
 h1 {
-    font-size: 2em;
+    font-size: 2.1em;
 }
 }
 @media (max-width:448px) {
@@ -302,6 +303,8 @@ h1{
     transform: scale(1.1) translateY(-5px);
     animation: vibration 0.8s infinite;
     -webkit-animation: vibration 0.8s infinite;
+    padding-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @keyframes vibration {
@@ -315,7 +318,7 @@ h1{
 @media (max-width:390px) {
 
     .honeforMainBage{
-    font-size: 1.7em;
+    font-size: 2em;
     
     }
    
@@ -323,9 +326,15 @@ h1{
     font-size: 24px;
     font-weight: bold;
     color: rgb(49, 176, 199);
-    transform: scale(1.1) translateY(-5px);
+    transform: scale(1.1) translateY(5px);
     animation: vibration 0.8s infinite;
     -webkit-animation: vibration 0.8s infinite;
+    -webkit-transform: scale(1.1) translateY(5px);
+    -moz-transform: scale(1.1) translateY(5px);
+    -ms-transform: scale(1.1) translateY(5px);
+    -o-transform: scale(1.1) translateY(5px);
+    padding-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @keyframes vibration {
@@ -337,4 +346,9 @@ h1{
 }
 
 }
+@media (max-width:390px) {
 
+    .honeforMainBage{
+    font-size: 1.7em;
+    
+    }}
