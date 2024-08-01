@@ -18,7 +18,7 @@ export default function Projects() {
         num: "2",
         name: "Weki Search",
         des: "A site to search for anything on the original Wikipedia site by typing it, even if it is an ace, and there is a page for favorites.",
-        imge: "../../../public/projPhoto/wekiSearch.png",
+        imge: "projPhoto/wekiSearch.png",
         demo: "https://wekipdia-search-engine.vercel.app/",
         repo: "https://github.com/ahmed514essam/Wekipdia-search-engine.git"
     },
@@ -26,7 +26,7 @@ export default function Projects() {
         num: "3",
         name: "Pets Store",
         des: "A site that sells pets, including cats and dogs, their comfort products, and their food",
-        imge: "../../../public/projPhoto/petsStore.png",
+        imge: "projPhoto/petsStore.png",
         demo: "https://pets-store-umber.vercel.app/",
         repo: "https://github.com/ahmed514essam/Pets-Store.git"
     },
@@ -34,7 +34,7 @@ export default function Projects() {
         num: "4",
         name: "Details Form",
         des: "It is a verified form to fill out a card of type n types of practices",
-        imge: "../../../public/projPhoto/detailsForm.png",
+        imge: "projPhoto/detailsForm.png",
         demo: "https://ahmed514essam.github.io/details-form/",
         repo: "https://github.com/ahmed514essam/details-form.git"
     },
@@ -42,7 +42,7 @@ export default function Projects() {
         num: "5",
         name: "Main Form",
         des: "A type of practice is creating a form website for filling to enter the next page",
-        imge: "../../../public/projPhoto/mainForm.png",
+        imge: "projPhoto/mainForm.png",
         demo: "https://ahmed514essam.github.io/MainForm.github.io/",
         repo: "https://github.com/ahmed514essam/MainForm.github.io.git"
     },
@@ -50,7 +50,7 @@ export default function Projects() {
         num: "6",
         name: "Product Cart",
         des: "Dessert products that allow you to put what you like in the basket, choose the quantity, and see the total price, simply and compatible with all screens.",
-        imge: "../../../public/projPhoto/cartSimple.png",
+        imge: "projPhoto/cartSimple.png",
         demo: "https://ahmed514essam.github.io/Product-List-with-Cart/",
         repo: "https://github.com/ahmed514essam/Product-List-with-Cart.git"
     },
@@ -58,7 +58,7 @@ export default function Projects() {
         num: "7",
         name: "Age Calculation",
         des: "A very simple program to calculate your age according to years, months and days",
-        imge: "../../../public/projPhoto/ageCalc.png",
+        imge: "projPhoto/ageCalc.png",
         demo: "https://ahmed514essam.github.io/Age-Calculation/",
         repo: "https://github.com/ahmed514essam/Age-Calculation.git"
     },
@@ -66,7 +66,7 @@ export default function Projects() {
         num: "8",
         name: "Simple Calculator",
         des: "A simple calculator created using JavaScript only",
-        imge: "../../../public/projPhoto/simpleCaluclator.png",
+        imge: "projPhoto/simpleCaluclator.png",
         demo: "https://ahmed514essam.github.io/Simble-Calculator/",
         repo: "https://github.com/ahmed514essam/Simble-Calculator.git"
     },

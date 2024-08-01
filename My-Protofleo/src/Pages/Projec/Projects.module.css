@@ -67,8 +67,16 @@ h1 {
     left: 0;
     border: 0;
     padding-top: 13px;
+    transition: transform .2s;
+    overflow: hidden;
 }
+.imgProjects:hover img  {
 
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    border-radius: 8px;
+}
 .nnmm {
     position: absolute;
     width: 40px;
