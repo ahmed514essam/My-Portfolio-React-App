@@ -1,121 +1,110 @@
+
 .secContact {
     background-color: rgb(10, 10, 10) !important;
     width: 100%;
-    height: 100%;
+    min-height: 100vh; 
     padding-top: 5rem;
-    height: 600px;
     padding-bottom: 20px;
-    align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-display: flex;
-flex-direction: row;
+    box-sizing: border-box; 
 }
-@media (max-width:900px) {
-    
+
+@media (max-width: 900px) {
     .secContact {
         flex-direction: column;
-        height: 100%;
+        justify-content: center; 
+    }
+}
 
-    }}
-    .definMe {
-        width: 30%;
-        text-align: center;
-    }
-    .definMe .hh {
-width: 80%;
-margin: auto;
-line-height: 30px;
-font-weight: 600;
-    }
-    .definMe .socialMediaIco {
-width: 80%;
-margin: auto;
-    }
+
+.definMe {
+    width: 30%;
+    min-height: 15px; 
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.definMe .hh {
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.definMe .socialMediaIco {
+    width: 80%;
+    margin: auto;
+}
+
+
 .Conn {
     width: 70%;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center items horizontally in column layout */
     text-align: center;
-   
-}
-.Conn h2 {
-font-size: 1.2em;
-color: white;
-}
-.Conn input {
-width: 100%;
-margin: auto;
-height: 50px;
-display: flex;
-align-items: center;
-border: 0;
-margin-top: 20px;
-background-color: rgb(3, 16, 24) ;
-padding-left: 10px;
-color: rgb(179, 179, 179);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.Conn input:active {
-    background-color: rgb(3, 16, 24) ;
-    border: 0;
+.Conn h2 {
+    font-size: 1.2em;
+    color: white;
 }
-.Conn input:focus {
+
+.Conn input, .Conn textarea {
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: rgb(3, 16, 24);
+    padding-left: 10px;
+    color: rgb(179, 179, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+margin-top: 15px;
+
+
+}
+
+.Conn input:active, .Conn input:focus, .Conn textarea:focus {
     background-color: rgb(3, 16, 24);
     border: 0;
 }
 
-.Conn textarea {
-    width: 100%;
-    border: 0;
-    background-color: rgb(3, 16, 24) ;
-    margin: auto;
-    margin-top: 20px;
-    color: rgb(179, 179, 179);
-    padding-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
+/* Style for form */
 form {
     width: 90%;
     margin: auto;
-
 }
+
 form button {
-    
     margin-top: 20px;
-    background-color:rgb(70, 177, 196);
+    background-color: rgb(70, 177, 196);
     font-weight: 600;
     font-size: 1.1em;
     padding: 10px 15px;
     border: 0;
     color: rgb(10, 10, 10);
-
     width: 100%;
 }
 
-
-@media (max-width:900px) {
-
-    .definMe{
+/* Responsive design adjustments */
+@media (max-width: 900px) {
+    .definMe {
         width: 80%;
-        margin: auto;
     }
-  
-    
-    
-        
-    }
-@media (max-width:523px) {
-
-.definMe{
-    width: 90%;
-    margin: auto;
 }
 
-.Conn {
-    width: 95%;
-}
+@media (max-width: 523px) {
+    .definMe {
+        width: 90%;
+    }
 
-    
+    .Conn {
+        width: 95%;
+    }
 }

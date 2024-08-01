@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faInfo, faPager, faLayerGroup, faPhone, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import {  faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);

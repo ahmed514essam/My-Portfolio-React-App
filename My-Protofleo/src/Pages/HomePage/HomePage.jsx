@@ -1,4 +1,3 @@
-import React from 'react';
 import "./HomePage.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF , faWhatsapp , faLinkedinIn , faGithub } from '@fortawesome/free-brands-svg-icons';
